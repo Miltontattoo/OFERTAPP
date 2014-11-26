@@ -1,0 +1,635 @@
+<!--milton-->
+<html>
+<head>
+<title>OfertApp</title>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+  <link href='http://fonts.googleapis.com/css?family=Exo:700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/themes/ofertap.css" />
+  <link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+<link href="estilos.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+.ajustar {
+	height: 100px;
+	width: 150px;
+}
+azul {
+	background-color: #06C;
+}
+</style>
+<script tipe="text/javascript" src="jquery-1.11.1.min.js"></script>
+<script tipe="text/javascript" src="jqm/jquery.mobile-1.4.4.js"></script>
+
+</head>
+<body>
+
+<!-- primera pagina-->
+<div data-role="page" id="pagina0">
+	
+<!--cabecera-->
+  <div data-role="header" data-theme="a" style="font-family: 'Exo', sans-serif;">
+  	<h1>Registro</h1>
+  </div>
+
+<!--contenido-->
+  <div role="main" class="ui-content" style="font-family: 'Exo', sans-serif;">
+  
+   <label for="text-basic">Nombre:</label>
+<input name="text-basic" id="text-basic" type="text" value="">
+
+  <label for="text-basic">Correo Electronico:</label>
+<input name="text-basic" id="text-basic" type="text" value="">
+
+<label for="textarea">Contraseña:</label>
+<textarea name="textarea" id="textarea" rows="8" cols="40"></textarea>
+
+<fieldset class="ui-grid-a">
+    <center><a style="font-family: 'Exo', sans-serif;"><a href="#pagina1"><div class="ui-block-a"><input type="submit" value="Registrar" data-theme="a"></div></a></center>
+    
+</fieldset>
+
+<center><img src="jqm/ofertap.png" align="top" width="auto" height="auto"></center>
+
+</div><!-- /content -->
+
+<!--pie-->
+
+</div>
+</div>
+
+<!-- primera pagina-->
+<div data-role="page" id="pagina1">
+	
+<!--cabecera-->
+  <div data-role="header" data-theme="a" style="font-family: 'Exo', sans-serif;">
+  	<h1>INICIO</h1>
+  </div>
+
+<!--contenido-->
+  <div role="main" class="ui-content">
+  
+  <ul data-role="listview" data-theme="a">
+  <li data-role="collapsible" data-iconpos="right">
+    <h2><center><img src="jqm/home1.jpg" width="auto" height="auto"></center></h2>
+    <ul data-role="listview" data-theme="a">
+      <li><a href="#"></a></li><br>
+       <center><img src="jqm/info1.jpg" width="auto" height="auto"></center>
+     </ul>
+     
+    <li data-role="collapsible" data-iconpos="right">
+    <h2><center><img src="jqm/home2.jpg" width="auto" height="auto"></center></h2>
+    <ul data-role="listview" data-theme="a">
+      <li><a href="#"></a></li>
+       <center><img src="jqm/info1.jpg" width="auto" height="auto"></center>
+      </ul>
+      
+      <li data-role="collapsible" data-iconpos="right">
+    <h2><center><img src="jqm/home3.jpg" width="auto" height="auto"></center></h2>
+    <ul data-role="listview" data-theme="a">
+      <li><a href="#"></a></li>
+       <center><img src="jqm/info1.jpg" width="auto" height="auto"></center>
+      </ul>
+      
+      <li data-role="collapsible" data-iconpos="right">
+    <h2><center><img src="jqm/home4.jpg" width="auto" height="auto"></center></h2>
+    <ul data-role="listview" data-theme="a">
+      <li><a href="#"></a></li>
+       <center><img src="jqm/info1.jpg" width="auto" height="auto"></center>
+      </ul>
+      </li>
+      
+    
+      
+      </div><!-- /content -->
+
+<!--pie-->
+<div data-role="footer" data-theme="b" class="ui-bar">
+    <div data-role="navbar" data-grid="c">
+        <ul>
+            <li><a href="#pagina1" style="font-family: 'Exo', sans-serif;" class="ui-btn-active">Inicio</a></li>
+            <li><a href="#pagina2" style="font-family: 'Exo', sans-serif;">Almacenes</a></li>
+            <li><a href="#pagina3" style="font-family: 'Exo', sans-serif;">Categorias</a></li>
+            <li><a href="#pagin" style="font-family: 'Exo', sans-serif;">Favoritos</a></li>
+        </ul>
+    </div><!-- /navbar -->
+    
+</div>
+</div>
+
+<!-- segunda pagina-->
+<div data-role="page" id="pagina2">
+	
+<!--cabecera-->
+  <div data-role="header" data-theme="a" style="font-family: 'Exo', sans-serif;"><button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-back"><a href="#pagina1">Volver</a></button>
+  	<h1>ALMACENES</h1>
+  </div>
+
+<!--contenido-->
+  <div role="main" class="ui-content" style="height:auto">
+	
+    <ul data-role="listview" data-inset="true">
+    <li><a href="#pagina5" style="font-family: 'Exo', sans-serif;">
+        <img src="jqm/adidas.jpg">
+    <h2>Adidas</h2>
+    <p>Ropa Deportiva</p></a>
+    </li>
+    <li><a href="#pagina6" style="font-family: 'Exo', sans-serif;">
+        <img src="jqm/falabella.jpg">
+    <h2>Falabella</h2>
+    <p>Variedad de Productos</p></a>
+    </li>
+    <li><a href="#pagina7" style="font-family: 'Exo', sans-serif;">
+        <img src="jqm/levis.jpg">
+    <h2>Levi's</h2>
+    <p>Jeans para Hombre y Mujer </p></a>
+    </li>
+    <li><a href="#paginal" style="font-family: 'Exo', sans-serif;">
+        <img src="jqm/tomy.jpg">
+    <h2>Tommy Hilfiger</h2>
+    <p>Camisas de Hombre</p></a>
+    </li>
+</ul>
+
+</div><!-- /content -->
+
+<!--pie-->
+<div data-role="footer" data-theme="b" align="top" class="ui-bar" style="font-family: 'Exo', sans-serif;">
+    <div data-role="navbar" data-grid="c">
+        <ul>
+            <li><a href="#pagina1" style="font-family: 'Exo', sans-serif;">Inicio</a></li>
+            <li><a href="#pagina2" style="font-family: 'Exo', sans-serif;" class="ui-btn-active">Almacenes</a></li>
+            <li><a href="#pagina3" style="font-family: 'Exo', sans-serif;">Categorias</a></li>
+            <li><a href="#pagin" style="font-family: 'Exo', sans-serif;">Favoritos</a></li>
+        </ul>
+    </div><!-- /navbar -->
+    </div>
+</div>
+
+
+<!-- sexta page -->
+<div data-role="page" id="pagina6" data-theme="a">
+
+	<div data-role="header" style="font-family: 'Exo', sans-serif;"><button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-back"><a href="#pagina2">Volver</a></button>
+		<h1>FALABELLA</h1>
+	</div><!-- /header -->
+    
+    
+    <div role="main" class="ui-content">
+    
+    <ul data-role="listview" data-inset="true">
+    <li id="skull" div class="ui-input-btn ui-btn ui-btn-inline"><center><img src="jqm/fallabella1.jpg" height="100" width="200"><img src="jqm/info1.jpg"></center></a></li>
+    <li data-icon="info" div class="ui-input-btn ui-btn ui-btn-inline"><center><img src="jqm/fallabella2.jpg" height="100" width="200"><img src="jqm/info1.jpg"></center></a></li>
+    <li data-icon="info"div class="ui-input-btn ui-btn ui-btn-inline"><center><img src="jqm/fallabella3.jpg" height="100" width="200"><img src="jqm/info1.jpg"></center></a></li>
+  
+</ul>
+</div><!-- /content -->
+
+
+<!--pie-->
+<div data-role="footer" data-theme="b" class="ui-bar" style="font-family: 'Exo', sans-serif;">
+    <div data-role="navbar" data-grid="c">
+        <ul>
+            <li><a href="#pagina1" style="font-family: 'Exo', sans-serif;">Inicio</a></li>
+            <li><a href="#pagina2" style="font-family: 'Exo', sans-serif;" class="ui-btn-active">Almacenes</a></li>
+            <li><a href="#pagina3" style="font-family: 'Exo', sans-serif;">Categorias</a></li>
+            <li><a href="#pagin" style="font-family: 'Exo', sans-serif;">Favoritos</a></li>
+        </ul>
+    </div><!-- /navbar -->
+</div>
+</div>
+
+
+<!-- quinta page -->
+<div data-role="page" id="pagina5">
+
+	<div data-role="header" style="font-family: 'Exo', sans-serif;"><button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-back"><a href="#pagina2">Volver</a></button>
+		<h1>ADIDAS</h1>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+    
+    <ul data-role="listview" data-inset="true">
+    <li id="skull" div class="ui-input-btn ui-btn ui-btn-inline"><center><img src="jqm/adidas1.jpg" height="100" width="200"><img src="jqm/info1.jpg"></center></a></li>
+    <li data-icon="info" div class="ui-input-btn ui-btn ui-btn-inline"><center><img src="jqm/adidas2.jpg" height="100" width="200"><img src="jqm/info1.jpg"></center></a></li>
+    <li data-icon="info"div class="ui-input-btn ui-btn ui-btn-inline"><center><img src="jqm/adidas3.jpg" height="100" width="200"><img src="jqm/info1.jpg"></center></a></li>
+  
+</ul>
+</div><!-- /content -->
+
+
+<!--pie-->
+<div data-role="footer" data-theme="b" class="ui-bar">
+    <div data-role="navbar" data-grid="c">
+        <ul>
+            <li><a href="#pagina1" style="font-family: 'Exo', sans-serif;">Inicio</a></li>
+            <li><a href="#pagina2" style="font-family: 'Exo', sans-serif;" class="ui-btn-active">Almacenes</a></li>
+            <li><a href="#pagina3" style="font-family: 'Exo', sans-serif;">Categorias</a></li>
+            <li><a href="#pagin" style="font-family: 'Exo', sans-serif;">Favoritos</a></li>
+        </ul>
+    </div><!-- /navbar -->
+</div>
+</div>
+    
+ 
+ <!-- sexta page -->
+<div data-role="page" id="pagina7" data-theme="a">
+
+	<div data-role="header" style="font-family: 'Exo', sans-serif;"><button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-back"><a href="#pagina2">Volver</a></button>
+		<h1>LEVIS</h1>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+    
+    <ul data-role="listview" data-inset="true">
+    <li id="skull" div class="ui-input-btn ui-btn ui-btn-inline"><center><img src="jqm/levis1.jpg" height="100" width="200"><img src="jqm/info1.jpg"></center></a></li>
+    <li data-icon="info" div class="ui-input-btn ui-btn ui-btn-inline"><center><img src="jqm/levis2.jpg" height="100" width="200"><img src="jqm/info1.jpg"></center></a></li>
+    <li data-icon="info"div class="ui-input-btn ui-btn ui-btn-inline"><center><img src="jqm/levis3.jpg" height="100" width="200"><img src="jqm/info1.jpg"></center></a></li>
+  
+</ul>
+</div><!-- /content -->
+
+
+<!--pie-->
+<div data-role="footer" data-theme="b" class="ui-bar" style="font-family: 'Exo', sans-serif;">
+    <div data-role="navbar" data-grid="c">
+        <ul>
+            <li><a href="#pagina1" style="font-family: 'Exo', sans-serif;">Inicio</a></li>
+            <li><a href="#pagina2" style="font-family: 'Exo', sans-serif;" class="ui-btn-active">Almacenes</a></li>
+            <li><a href="#pagina3" style="font-family: 'Exo', sans-serif;">Categorias</a></li>
+            <li><a href="#pagin" style="font-family: 'Exo', sans-serif;">Favoritos</a></li>
+        </ul>
+    </div><!-- /navbar -->
+</div>
+</div>
+
+
+<!-- sexta page -->
+<div data-role="page" id="paginal" data-theme="a" style="font-family: 'Exo', sans-serif;">
+
+	<div data-role="header"><button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-back"><a href="#pagina2">Volver</a></button>
+		<h1>TOMMY HILFIGER</h1>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+    
+    <ul data-role="listview" data-inset="true">
+    <li id="skull" div class="ui-input-btn ui-btn ui-btn-inline"><center><img src="jqm/tomy1.jpg" height="100" width="200"><img src="jqm/info1.jpg"></center></a></li>
+    <li data-icon="info" div class="ui-input-btn ui-btn ui-btn-inline"><center><img src="jqm/tomy2.jpg" height="100" width="200"><img src="jqm/info1.jpg"></center></a></li>
+    <li data-icon="info"div class="ui-input-btn ui-btn ui-btn-inline"><center><img src="jqm/tomy3.jpg" height="100" width="200"><img src="jqm/info1.jpg"></center></a></li>
+  
+</ul>
+</div><!-- /content -->
+
+
+<!--pie-->
+<div data-role="footer" data-theme="b" class="ui-bar">
+    <div data-role="navbar" data-grid="c">
+        <ul>
+           <li><a href="#pagina1" style="font-family: 'Exo', sans-serif;">Inicio</a></li>
+            <li><a href="#pagina2" style="font-family: 'Exo', sans-serif;" class="ui-btn-active">Almacenes</a></li>
+            <li><a href="#pagina3" style="font-family: 'Exo', sans-serif;">Categorias</a></li>
+            <li><a href="#pagin" style="font-family: 'Exo', sans-serif;">Favoritos</a></li>
+        </ul>
+    </div><!-- /navbar -->
+</div>
+</div>
+
+<!-- tercera pagina-->
+<div data-role="page" id="pagina3">
+
+	<div data-role="header" data-theme="a" style="font-family: 'Exo', sans-serif;"><button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-back"><a href="#pagina1">Volver</a></button>
+		<h1>CATEGORIAS</h1>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+    
+    <div class="ui-grid-a">
+    <div class="ui-block-a"><a class="ui-shadow ui-btn ui-corner-all" style="height:auto; font-family: 'Exo', sans-serif;" href="#pagina9"><img src="jqm/accesorio.png" class="ajustar"><center>Accesorios</center></a></div>
+    <div class="ui-block-b"><a class="ui-shadow ui-btn ui-corner-all" style="height:auto; font-family: 'Exo', sans-serif;" href="#pagina8"><img src="jqm/ropa.png" class="ajustar"><center>Ropa</center></a></div>
+    <div class="ui-block-a"><a class="ui-shadow ui-btn ui-corner-all"style="height:auto; font-family: 'Exo', sans-serif;" href="#paginaw"><img src="jqm/zapato.png" class="ajustar"><center>Calzado</center></a></div>
+    <div class="ui-block-b"><a class="ui-shadow ui-btn ui-corner-all" style="height:auto; font-family: 'Exo', sans-serif;" href="#paginao"><img src="jqm/otros.png" class="ajustar"><center>Otros</center></a></div>
+</div>
+</div><!-- /content -->
+
+<!--pie-->
+<div data-role="footer" data-theme="b" class="ui-bar" style="font-family: 'Exo', sans-serif;">
+    <div data-role="navbar" data-grid="c">
+        <ul>
+            <li><a href="#pagina1" style="font-family: 'Exo', sans-serif;">Inicio</a></li>
+            <li><a href="#pagina2" style="font-family: 'Exo', sans-serif;">Almacenes</a></li>
+            <li><a href="#pagina3" style="font-family: 'Exo', sans-serif;" class="ui-btn-active">Categorias</a></li>
+            <li><a href="#pagin" style="font-family: 'Exo', sans-serif;">Favoritos</a></li>
+        </ul>
+    </div><!-- /navbar -->
+</div>
+</div>
+
+
+
+
+<!-- octava pagina-->
+<div data-role="page" id="pagina9">
+	
+<!--cabecera-->
+  <div data-role="header"data-theme="a" style="font-family: 'Exo', sans-serif;"><button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-back"><a href="#pagina3">Volver</a></button>
+  	<h1>Accesorios</h1>
+  </div>
+
+<!--contenido-->
+  <div role="main" class="ui-content">
+   
+    <div data-role="collapsibleset" data-theme="a" data-inset="false" style="font-family: 'Exo', sans-serif;">
+    <div data-role="collapsible">
+    <h2><center><img src="jqm/accesorio3.jpg" class="ajustar"></center></h2>
+        <ul data-role="listview" style="font-family: 'Exo', sans-serif;">
+            <li><center>C.c Salitre Plaza- Andino- Unicentro / Valor: $ 70.000</center>
+            <a class="ui-btn ui-btn-inline" href="#pagin"><center>Guardar</center></a>
+            </li>
+            </ul>
+    </div>
+    
+    <div data-role="collapsibleset" data-theme="a" data-inset="false" style="font-family: 'Exo', sans-serif;">
+    <div data-role="collapsible">
+    <h2><center><img src="jqm/accesorio2.jpg" class="ajustar"></center></h2>
+        <ul data-role="listview" style="font-family: 'Exo', sans-serif;">
+            <li><center>C.c Gran Estacion- Andino- Americas / Valor: $ 90.000</center>
+            <a class="ui-btn ui-btn-inline" href="#pagin"><center>Guardar</center></a>
+            </li>
+            </ul>
+    </div>
+    
+     <div data-role="collapsibleset" data-theme="a" data-inset="false" style="font-family: 'Exo', sans-serif;">
+    <div data-role="collapsible">
+    <h2><center><img src="jqm/accesorio1.jpg" class="ajustar"></center></h2>
+        <ul data-role="listview" style="font-family: 'Exo', sans-serif;">
+            <li><center>C.c Santafe- Titan- Americas / Valor: $ 50.000</center>
+            <a class="ui-btn ui-btn-inline" href="#pagin"><center>Guardar</center></a>
+            </li>
+            </ul>
+    </div>
+
+</div><!-- /content -->
+</div>
+</div>
+</div>
+   
+<!--pie-->
+<div data-role="footer" data-theme="b" class="ui-bar">
+    <div data-role="navbar" data-grid="c">
+        <ul>
+           <li><a href="#pagina1" style="font-family: 'Exo', sans-serif;">Inicio</a></li>
+            <li><a href="#pagina2" style="font-family: 'Exo', sans-serif;">Almacenes</a></li>
+            <li><a href="#pagina3" style="font-family: 'Exo', sans-serif;" class="ui-btn-active">Categorias</a></li>
+            <li><a href="#pagin" style="font-family: 'Exo', sans-serif;">Favoritos</a></li>
+        </ul>
+    </div><!-- /navbar -->
+</div>
+</div>
+
+
+
+<!-- octava pagina-->
+<div data-role="page" id="pagina8" style="font-family: 'Exo', sans-serif;">
+	
+<!--cabecera-->
+  <div data-role="header" data-icon="back" data-theme="a"><button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-back"><a href="#pagina3">Volver</a></button>
+  	<h1>ROPA</h1>
+  </div>
+
+<!--contenido-->
+  <div role="main" class="ui-content">
+   
+   <div data-role="collapsibleset" data-theme="a" data-inset="false">
+    <div data-role="collapsible">
+    <h2><center><img src="jqm/ropa3.jpg" class="ajustar"></center></h2>
+        <ul data-role="listview" style="font-family: 'Exo', sans-serif;">
+            <li><center>C.c Salitre Plaza- Andino- Unicentro / Valor: $ 70.000</center>
+            <a class="ui-btn ui-btn-inline" href="#pagin"><center>Guardar</center></a>
+            </li>
+            </ul>
+    </div>
+    
+    <div data-role="collapsibleset" data-theme="a" data-inset="false">
+    <div data-role="collapsible">
+    <h2><center><img src="jqm/ropa2.jpg" class="ajustar"></center></h2>
+        <ul data-role="listview" style="font-family: 'Exo', sans-serif;">
+            <li><center>C.c Gran Estacion- Andino- Americas / Valor: $ 90.000</center>
+            <a class="ui-btn ui-btn-inline" href="#pagin"><center>Guardar</center></a>
+            </li>
+            </ul>
+    </div>
+    
+     <div data-role="collapsibleset" data-theme="a" data-inset="false">
+    <div data-role="collapsible">
+    <h2><center><img src="jqm/ropa1.jpg" class="ajustar"></center></h2>
+        <ul data-role="listview" style="font-family: 'Exo', sans-serif;">
+            <li><center>C.c Santafe- Titan- Americas / Valor: $ 50.000</center>
+            <a class="ui-btn ui-btn-inline" href="#pagin"><center>Guardar</center></a>
+            </li>
+            </ul>
+    </div>
+
+</div><!-- /content -->
+</div>
+</div>
+</div>
+
+<!--pie-->
+<div data-role="footer" data-theme="b" class="ui-bar" style="font-family: 'Exo', sans-serif;">
+    <div data-role="navbar" data-grid="c">
+        <ul>
+           <li><a href="#pagina1" style="font-family: 'Exo', sans-serif;">Inicio</a></li>
+            <li><a href="#pagina2" style="font-family: 'Exo', sans-serif;">Almacenes</a></li>
+            <li><a href="#pagina3" style="font-family: 'Exo', sans-serif;" class="ui-btn-active">Categorias</a></li>
+            <li><a href="#pagin" style="font-family: 'Exo', sans-serif;">Favoritos</a></li>
+        </ul>
+    </div><!-- /navbar -->
+    
+</div>
+</div>	
+
+
+<!-- octava pagina-->
+<div data-role="page" id="paginaw">
+	
+<!--cabecera-->
+  <div data-role="header" data-icon="back" data-theme="a" style="font-family: 'Exo', sans-serif;"><button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-back"><a href="#pagina3">Volver</a></button>
+  	<h1>CALZADO</h1>
+  </div>
+
+<!--contenido-->
+  <div role="main" class="ui-content">
+   
+   <div data-role="collapsibleset" data-theme="a" data-inset="false">
+    <div data-role="collapsible">
+    <h2><center><img src="jqm/zapatos3.jpg" class="ajustar"></center></h2>
+        <ul data-role="listview" style="font-family: 'Exo', sans-serif;">
+            <li><center>C.c Salitre Plaza- Andino- Unicentro / Valor: $ 70.000</center>
+            <a class="ui-btn ui-btn-inline" href="#pagin"><center>Guardar</center></a>
+            </li>
+            </ul>
+    </div>
+    
+    <div data-role="collapsibleset" data-theme="a" data-inset="false">
+    <div data-role="collapsible">
+    <h2><center><img src="jqm/zapatos2.jpg" class="ajustar"></center></h2>
+        <ul data-role="listview" style="font-family: 'Exo', sans-serif;">
+            <li><center>C.c Gran Estacion- Andino- Americas / Valor: $ 90.000</center>
+            <a class="ui-btn ui-btn-inline" href="#pagin"><center>Guardar</center></a>
+            </li>
+            </ul>
+    </div>
+    
+     <div data-role="collapsibleset" data-theme="a" data-inset="false">
+    <div data-role="collapsible">
+    <h2><center><img src="jqm/zapatos1.jpg" class="ajustar"></center></h2>
+        <ul data-role="listview" style="font-family: 'Exo', sans-serif;">
+            <li><center>C.c Santafe- Titan- Americas / Valor: $ 50.000</center>
+            <a class="ui-btn ui-btn-inline" href="#pagin"><center>Guardar</center></a>
+            </li>
+            </ul>
+    </div>
+
+</div><!-- /content -->
+</div>
+</div>
+</div>
+   
+<!--pie-->
+<div data-role="footer" data-theme="b" class="ui-bar" style="font-family: 'Exo', sans-serif;">
+    <div data-role="navbar" data-grid="c">
+        <ul>
+            <li><a href="#pagina1" style="font-family: 'Exo', sans-serif;">Inicio</a></li>
+            <li><a href="#pagina2" style="font-family: 'Exo', sans-serif;">Almacenes</a></li>
+            <li><a href="#pagina3" style="font-family: 'Exo', sans-serif;" class="ui-btn-active">Categorias</a></li>
+            <li><a href="#pagin" style="font-family: 'Exo', sans-serif;">Favoritos</a></li>
+        </ul>
+    </div><!-- /navbar -->
+    </div>
+</div>
+
+
+<!-- octava pagina-->
+<div data-role="page" id="paginao">
+	
+<!--cabecera-->
+  <div data-role="header" data-icon="back" data-theme="a" style="font-family: 'Exo', sans-serif;"><button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-back"><a href="#pagina3">Volver</a></button>
+  	<h1>OTROS</h1>
+  </div>
+
+<!--contenido-->
+  <div role="main" class="ui-content">
+   
+   <div data-role="collapsibleset" data-theme="a" data-inset="false">
+    <div data-role="collapsible">
+    <h2><center><img src="jqm/fallabella3.jpg" class="ajustar"></center></h2>
+        <ul data-role="listview" style="font-family: 'Exo', sans-serif;">
+            <li><center>C.c Salitre Plaza- Andino- Unicentro / Valor: $ 70.000</center>
+            <a class="ui-btn ui-btn-inline" href="#pagin"><center>Guardar</center></a>
+            </li>
+            </ul>
+    </div>
+    
+    <div data-role="collapsibleset" data-theme="a" data-inset="false">
+    <div data-role="collapsible">
+    <h2><center><img src="jqm/fallabella2.jpg" class="ajustar"></center></h2>
+        <ul data-role="listview" style="font-family: 'Exo', sans-serif;">
+            <li><center>C.c Gran Estacion- Andino- Americas / Valor: $ 90.000</center>
+            <a class="ui-btn ui-btn-inline" href="#pagin"><center>Guardar</center></a>
+            </li>
+            </ul>
+    </div>
+    
+     <div data-role="collapsibleset" data-theme="a" data-inset="false">
+    <div data-role="collapsible">
+    <h2><center><img src="jqm/fallabella1.jpg" class="ajustar"></center></h2>
+        <ul data-role="listview" style="font-family: 'Exo', sans-serif;">
+            <li><center>C.c Santafe- Titan- Americas / Valor: $ 50.000</center>
+            <a class="ui-btn ui-btn-inline" href="#pagin"><center>Guardar</center></a>
+            </li>
+            </ul>
+    </div>
+
+</div><!-- /content -->
+</div>
+</div>
+</div>
+   
+<!--pie-->
+<div data-role="footer" data-theme="b" class="ui-bar" style="font-family: 'Exo', sans-serif;">
+    <div data-role="navbar" data-grid="c">
+        <ul>
+            <li><a href="#pagina1" style="font-family: 'Exo', sans-serif;">Inicio</a></li>
+            <li><a href="#pagina2" style="font-family: 'Exo', sans-serif;">Almacenes</a></li>
+            <li><a href="#pagina3" style="font-family: 'Exo', sans-serif;" class="ui-btn-active">Categorias</a></li>
+            <li><a href="#pagin" style="font-family: 'Exo', sans-serif;">Favoritos</a></li>
+        </ul>
+    </div><!-- /navbar -->
+    </div>
+</div>
+
+
+
+<!-- octava pagina-->
+<div data-role="page" id="pagin">
+	
+
+<!--cabecera-->
+  <div data-role="header" data-icon="back" data-theme="a" style="font-family: 'Exo', sans-serif;"><button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-back"><a href="#pagina3">Volver</a></button>
+  	<h1>FAVORITOS</h1>
+  </div>
+
+<!--contenido-->
+  <div class="ui-grid-a">
+    <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height: auto; font-size:10px; font-family: 'Exo', sans-serif; background-color:#FFC"><div class="centrar"><center><img src="jqm/adidas1.jpg" class="ajustar"><ul data-role="listview">
+            <li><center>C.c Santafe- Titan- Americas / Valor: $ 50.000</center>
+            </li>
+            </ul></div></div>
+</div><!-- /grid-a -->
+    <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height: auto; font-size:10px; font-family: 'Exo', sans-serif; background-color:#FFC"><div class="centrar"><center><img src="jqm/fallabella3.jpg" class="ajustar"><ul data-role="listview">
+            <li><center>C.c Santafe- Titan- Americas / Valor: $ 50.000</center>
+            </li>
+            </ul></div></div>
+</div><!-- /grid-a -->
+    <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height: auto; font-size:10px; font-family: 'Exo', sans-serif; background-color:#FFC"><div class="centrar"><center><img src="jqm/ropa3.jpg" class="ajustar"><ul data-role="listview">
+            <li><center>C.c Santafe- Titan- Americas / Valor: $ 50.000</center>
+            </li>
+            </ul></div></div>
+</div><!-- /grid-a -->
+    <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height: auto; font-size:10px; font-family: 'Exo', sans-serif; background-color:#FFC"><div class="centrar"><center><img src="jqm/levis2.jpg" class="ajustar"><ul data-role="listview">
+            <li><center>C.c Santafe- Titan- Americas / Valor: $ 50.000</center>
+            </li>
+            </ul></div></div>
+</div><!-- /grid-a -->
+    <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height: auto; font-size:10px; font-family: 'Exo', sans-serif; background-color:#FFC"><div class="centrar"><center><img src="jqm/accesorio2.jpg" class="ajustar"><ul data-role="listview">
+            <li><center>C.c Santafe- Titan- Americas / Valor: $ 50.000</center>
+            </li>
+            </ul></div></div>
+</div><!-- /grid-a -->
+    <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height: auto; font-size:10px; font-family: 'Exo', sans-serif; background-color:#FFC"><div class="centrar"><center><img src="jqm/zapatos3.jpg" class="ajustar"><ul data-role="listview">
+            <li><center>C.c Santafe- Titan- Americas / Valor: $ 50.000</center></li>
+            </ul></div></div>
+</div><!-- /grid-a -->
+</div>
+
+   
+<!--pie-->
+<div data-role="footer" data-theme="b" class="ui-bar" style="font-family: 'Exo', sans-serif;">
+    <div data-role="navbar" data-grid="c">
+        <ul>
+             <li><a href="#pagina1" style="font-family: 'Exo', sans-serif;">Inicio</a></li>
+            <li><a href="#pagina2" style="font-family: 'Exo', sans-serif;">Almacenes</a></li>
+            <li><a href="#pagina3" style="font-family: 'Exo', sans-serif;" class="ui-btn-active">Categorias</a></li>
+            <li><a href="#pagin" style="font-family: 'Exo', sans-serif;">Favoritos</a></li>
+        </ul>
+    </div><!-- /navbar -->
+</div>
+</div>
+
+
+
+
+
+</body>
+</html>
